@@ -253,7 +253,7 @@ export class Wigle implements INodeType {
 
 			const options = this.getNodeParameter('options', itemIndex);
 
-			const results_per_page = options.result_field ? (options.results_per_page as number) : 25;
+			const results_per_page = options.results_per_page ? (options.results_per_page as number) : 25;
 			const results_field = options.result_field ? (options.results_field as string) : 'wigle';
 
 			const credentials = await this.getCredentials('wigleApi');
@@ -309,7 +309,7 @@ export class Wigle implements INodeType {
 					json: true,
 				};
 
-				console.log(httpOptions);
+				//console.log(httpOptions);
 
 				try {
 					let response = await this.helpers.httpRequest(httpOptions);
