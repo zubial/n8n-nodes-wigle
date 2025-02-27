@@ -1,13 +1,6 @@
 
-## 1.0.6
+## 1.0.2
 
 ### Features
 
-* Full scan a certificate (using ssllabs.com)
-* Retrieve endpoint analyze (using ssllabs.com)
-
-## 1.0.0
-
-### Features
-
-* Ssl Checker using ssl-checker.io
+* Search WiFi Network (using wigle.net)
