@@ -52,14 +52,14 @@ export class Wigle implements INodeType {
 				noDataExpression: true,
 			},
 			{
-				displayName: 'Search SSID',
+				displayName: 'Search by SSID',
 				name: 'query_ssid',
 				type: 'string',
 				default: 'LIVEBOX',
 				description: 'Add a filter on SSID (% _ supported)',
 			},
 			{
-				displayName: 'Search BSSID',
+				displayName: 'Search by BSSID',
 				name: 'query_bssid',
 				type: 'string',
 				default: '',
@@ -70,7 +70,7 @@ export class Wigle implements INodeType {
 				name: 'filter_geo',
 				type: 'boolean',
 				default: false,
-				description: 'Whether add a filter by geolocation',
+				description: 'Add a filter by geolocation',
 			},
 			{
 				displayName: 'Latitude',
@@ -110,7 +110,7 @@ export class Wigle implements INodeType {
 				name: 'filter_location',
 				type: 'boolean',
 				default: false,
-				description: 'Whether add a filter by geolocation',
+				description: 'Add a filter by geolocation',
 			},
 			{
 				displayName: 'Road',

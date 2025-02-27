@@ -44,6 +44,7 @@ module.exports = {
 			rules: {
 				'n8n-nodes-base/node-class-description-inputs-wrong-regular-node': 'off',
 				'n8n-nodes-base/node-class-description-outputs-wrong': 'off',
+				'n8n-nodes-base/node-param-description-boolean-without-whether': 'off',
 			},
 		},
 	],

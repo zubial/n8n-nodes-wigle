@@ -1,20 +1,17 @@
 {
-	"node": "n8n-nodes-base.ssl-checker",
+	"node": "n8n-nodes-base.wigle",
 	"nodeVersion": "1.0",
 	"codexVersion": "1.0",
 	"categories": ["Cybersecurity", "Utility", "Core Nodes"],
 	"resources": {
 		"credentialDocumentation": [
 			{
-				"url": "https://www.ssllabs.com/projects/ssllabs-apis/index.html"
+				"url": "https://wigle.net/account"
 			}
 		],
 		"primaryDocumentation": [
 			{
-				"url": "https://ssl-checker.io/"
-			},
-			{
-				"url": "https://www.ssllabs.com/projects/ssllabs-apis/index.html"
+				"url": "https://wigle.net"
 			}
 		]
 	},
